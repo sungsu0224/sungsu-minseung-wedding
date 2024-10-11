@@ -1,8 +1,11 @@
 import streamlit as st
 import folium
 from streamlit_folium import st_folium
-st.markdown("<video src='/workspaces/sungsu-minseung-wedding/test.jpg'> </video>",unsafe_allow_html=True)
-st.markdown("<img src= 'img/test.jpg' width='50%' style='display: block; margin: 0 auto;'>", unsafe_allow_html=True)
+#st.markdown("<video src='/workspaces/sungsu-minseung-wedding/test.jpg'> </video>",unsafe_allow_html=True)
+
+st.image("https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2hjZGgyd2Y4Zm80eW90ZjI1YmhxbmRwMG92MW12cGFpOGhncml0NCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/1dKRR4sZj9EFBFrrVL/giphy-downsized-large.gif",use_column_width=True)
+
+#st.markdown("<img src= 'img/test.jpg' width='50%' style='display: block; margin: 0 auto;'>", unsafe_allow_html=True)
 st.markdown("<h1 style='text-align: center;'> 김성수 & 강민승</h1>",unsafe_allow_html=True)
 st.markdown("<h5 style='text-align: center; color: grey;'> 결혼합니다 </h3>",unsafe_allow_html=True)
 st.markdown("""<hr style='border-left: 3px solid; height:150px; position: absolute; left: 50%; margin-left: -15px;'/>""",unsafe_allow_html=True)
